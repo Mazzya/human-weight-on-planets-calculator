@@ -103,9 +103,6 @@ public class Core extends Thread {
         }
     }
 
-
-
-
     public void calculateWeight(int choice) {
         switch (choice) {
             case 1 -> {
@@ -155,5 +152,10 @@ public class Core extends Thread {
             }
             default -> System.out.println("Try again please");
         }
+    }
+
+    public static void main(String[] args) {
+        Core core = new Core();
+        core.start();
     }
 }
