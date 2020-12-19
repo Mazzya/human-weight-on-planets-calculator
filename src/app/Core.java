@@ -51,7 +51,7 @@ public class Core extends Thread {
                 " | ---'''\n" +
                 " |\n" +
                 " |\n" +
-                " |--..__");
+                " |--..__\n");
 
 
 
